@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/stickers/lines-garland-x15.svg" width="100%" alt="Garland"></p>
 
-<p align="center"><img src="assets/room.svg" width="80%" alt="my room"></p>
+<p align="center"><img src="assets/room.svg" width="50%" alt="my room"></p>
 
 <p align="center">
   <a href="https://github.com/kimjungminn24/pik-one"><img src="assets/cards/pik-one.svg" alt="kimjungminn24/pik-one"></a>
