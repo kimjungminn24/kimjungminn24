@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/room.svg" height="300" alt="my room">
+  <a href="https://github.com/kimjungminn24/cute-readme"><img src="assets/room.svg" height="300" alt="my room"></a>
   <a href="https://www.youtube.com/watch?v=V2V9-9VhYJo"><img src="assets/music.svg" height="300" alt="now playing: ILLIT 체포하겠어"></a>
 </p>
 
