@@ -7,5 +7,5 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/kimjungminn24/kimjungminn24/discussions"><img src="assets/guestbook.svg" width="520" alt="guestbook"></a>
+  <a href="https://github.com/kimjungminn24/kimjungminn24/discussions/1"><img src="assets/guestbook.svg" width="520" alt="guestbook"></a>
 </p>
