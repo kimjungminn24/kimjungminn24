@@ -9,3 +9,7 @@
   <a href="https://github.com/kimjungminn24/scratch-pic"><img src="assets/cards/scratch-pic.svg" alt="kimjungminn24/scratch-pic"></a>
   <a href="https://github.com/kimjungminn24/pixel-duet"><img src="assets/cards/pixel-duet.svg" alt="kimjungminn24/pixel-duet"></a>
 </p>
+
+<p align="center">
+  <a href="https://github.com/kimjungminn24/kimjungminn24/discussions"><img src="assets/guestbook.svg" width="520" alt="guestbook"></a>
+</p>

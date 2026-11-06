@@ -1,0 +1,58 @@
+# Redraws assets/guestbook.svg from the comments on the Guestbook discussion.
+# Needs Discussions turned on and a discussion with "Guestbook" in its title.
+
+name: guestbook
+
+on:
+  discussion_comment:
+    types: [created, edited, deleted]
+  discussion:
+    types: [edited]
+  schedule:
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+env:
+  GUESTBOOK_THEME: pixel
+  GUESTBOOK_TITLE: guestbook
+  GUESTBOOK_LIMIT: 6
+  GUESTBOOK_WIDTH: 520
+
+concurrency:
+  group: guestbook
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  discussions: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: kimjungminn24/cute-readme
+          path: .cute-readme
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: |
+          if [ ! -f .cute-readme/scripts/render-guestbook.js ]; then
+            echo "cute-readme has no guestbook renderer yet, skipping."
+            exit 0
+          fi
+          node .cute-readme/scripts/render-guestbook.js "$GITHUB_REPOSITORY" assets/guestbook.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/guestbook.svg
+          git diff --cached --quiet || { git commit -m "update guestbook"; git pull --rebase origin "$GITHUB_REF_NAME"; git push; }
