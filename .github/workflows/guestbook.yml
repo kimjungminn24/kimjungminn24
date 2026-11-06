@@ -16,7 +16,7 @@ env:
   GUESTBOOK_THEME: card
   GUESTBOOK_TITLE: guestbook
   GUESTBOOK_LIMIT: 6
-  GUESTBOOK_WIDTH: 520
+  GUESTBOOK_WIDTH: 728
 
 concurrency:
   group: guestbook
