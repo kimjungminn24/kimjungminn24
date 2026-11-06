@@ -3,11 +3,11 @@
     <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
     <img src="assets/about.svg" width="290" alt="into pixel art, fueled by Claude Code, reach me at jmeve24@naver.com">
   </picture>
-  <a href="https://www.youtube.com/watch?v=V2V9-9VhYJo"><img src="assets/music.svg" width="420" alt="now playing: ILLIT 체포하겠어"></a>
+  <a href="https://www.youtube.com/watch?v=zhHB4dZTChw"><img src="assets/music.svg" width="420" alt="now playing: KiiiKiii 404 (New Era)"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/kimjungminn24/cute-readme"><img src="assets/room.svg" width="728" alt="my room"></a>
+  <a href="https://github.com/kimjungminn24/cute-readme"><img src="assets/room.svg" width="600" alt="my room"></a>
 </p>
 
 <p align="center">
