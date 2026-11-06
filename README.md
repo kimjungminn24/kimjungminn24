@@ -7,5 +7,9 @@
 </p>
 
 <p align="center">
+  <a href="https://www.youtube.com/watch?v=V2V9-9VhYJo"><img src="assets/music.svg" alt="now playing: ILLIT 체포하겠어"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/kimjungminn24/kimjungminn24/discussions/1"><img src="assets/guestbook.svg" width="520" alt="guestbook"></a>
 </p>
