@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/kimjungminn24/cute-readme"><img src="assets/room.svg" height="285" alt="my room"></a>
-  <a href="https://www.youtube.com/watch?v=V2V9-9VhYJo"><img src="assets/music.svg" height="285" alt="now playing: ILLIT 체포하겠어"></a>
+  <a href="https://github.com/kimjungminn24/cute-readme"><img src="assets/room.svg" width="393" alt="my room"></a>
+  <a href="https://www.youtube.com/watch?v=V2V9-9VhYJo"><img src="assets/music.svg" width="297" alt="now playing: ILLIT 체포하겠어"></a>
 </p>
 
 <p align="center">
